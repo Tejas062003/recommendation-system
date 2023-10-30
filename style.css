@@ -479,7 +479,8 @@ body {
 }
 
 .card_datails h1 {
-   font-size: 30px;
+   font-size: 5em;
+   color: #000000;
 }
 
 .card_right img {
@@ -492,6 +493,8 @@ body {
 }
 
 .card_cat {
+   font-size: 1em;
+   font-weight: 300;
    width: 100%;
    display: -webkit-box;
    display: -ms-flexbox;
@@ -531,7 +534,7 @@ a {
 }
 
 button {
-   color: #fff;
+   color: #000000;
    border: none;
    padding: 20px;
    outline: none;
@@ -558,7 +561,7 @@ button:hover {
    margin: -394px auto;
    position: relative;
    text-align: center;
-   background: rgba(0, 244, 170, 0.4);
+   border: radius 15px;;
    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
 }
 
