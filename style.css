@@ -12,8 +12,19 @@ li {
 body {
    cursor: pointer;
    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
-  
+   border-radius: 14px;
+   padding: 20px 40px;
+   @media screen and (max-width: 415px) {
+    padding: 20px;
+   }
+  }
+  &.overlay {
+   pointer-events: none;
+   transition: 0.3s;
+   background-color: var(--overlay-bg);
+  }
 }
+
 
 * {
    padding: 0;
