@@ -11,7 +11,7 @@ li {
 
 body {
    cursor: pointer;
-   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+   background-image: url("https://cdn.dribbble.com/users/1595839/screenshots/11700339/media/5b39c07a6a721b6b440288c6c6ec5cb1.gif");
 }
 
 * {
@@ -52,10 +52,11 @@ body {
 }
 
 .dropdown > .drop-content > .drop-col {
+   position: relative;
    float: none;
    padding: 12px 16px;
    text-decoration: none;
-   display: block;
+   display:bl ;
    text-align: left;
    z-index: -1;
 }
@@ -107,8 +108,10 @@ body {
 
 .learn-para > .drop-col > p {
    max-width: 90%;
-   line-height: 1.8;
-   font-size: 0.9em;
+   line-height: 1.4;
+   font-size: 1em;
+   font-family: Arial, sans-serif;
+  
 }
 
 .learn-para > .drop-col > h1 {
@@ -117,6 +120,10 @@ body {
    line-height: 1.6;
    font-weight: 600;
    font-size: 0.94rem;
+   transition: 0.5s;
+   font-family: Arial, sans-serif;
+ 
+}
 }
 
 .nav-col {
@@ -355,6 +362,7 @@ hr {
 }
 
 .quote {
+   font-family: Arial, Helvetica, sans-serif;
    list-style: none;
    text-decoration: none;
    color: black;
